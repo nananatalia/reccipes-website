@@ -109,6 +109,14 @@ main {
     border-radius: 5px;
 }
 
+.sign-up-form input:valid {
+    border-color: green;
+}
+
+.sign-up-form input:invalid {
+    border-color: red;
+}
+
 .sign-up-form button {
     padding: 10px 20px;
     background-color: green;
